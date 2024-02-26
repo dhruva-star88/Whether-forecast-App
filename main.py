@@ -1,5 +1,5 @@
 import streamlit as st
-import plotly_express as px
+from plotly import express as px
 from backend import get_data
 from datetime import datetime
 
